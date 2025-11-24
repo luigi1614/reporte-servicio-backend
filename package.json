@@ -7,6 +7,7 @@
     "initdb": "node db/init-db.js"
   },
   "dependencies": {
+    "cors": "^2.8.5"
     "better-sqlite3": "^8.0.0",
     "bcrypt": "^5.1.0",
     "body-parser": "^1.20.2",
