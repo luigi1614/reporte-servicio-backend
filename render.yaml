@@ -1,8 +1,10 @@
-services:
-  - type: web
-    name: reporte-servicio-backend
-    runtime: node
-    envVars:
-      NODE_VERSION: 18
-    buildCommand: "npm install"
-    startCommand: "node server.js"
+spec:
+  services:
+    - type: web
+      name: reporte-servicio-backend
+      runtime: node
+      envVars:
+        NODE_VERSION: 18
+      buildCommand: "npm install"
+      startCommand: "node server.js"
+      plan: free
