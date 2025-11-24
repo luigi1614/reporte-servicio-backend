@@ -1,8 +1,8 @@
 services:
   - type: web
     name: reporte-servicio-backend
-    env: node
+    runtime: node
+    envVars:
+      NODE_VERSION: 18
     buildCommand: "npm install"
     startCommand: "node server.js"
-    envVars:
-      NODE_VERSION: "18"
